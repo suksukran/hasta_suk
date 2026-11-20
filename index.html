@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio pribadi Hasta Sukran - Pengembang Web dan lulusan Ilmu Komputer.">
+    <meta name="author" content="Hasta Sukran">
+    <meta name="theme-color" content="#050914">
+
+    <title>Hasta Sukran | Portofolio Pribadi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="stars" aria-hidden="true"></div>
+
+    <!-- NAVIGASI UTAMA -->
+    <nav class="pill-nav" id="navMenu" aria-label="Navigasi utama">
+
+        <a href="#home" class="nav-link active">
+            <i class="fa-solid fa-house"></i>
+            <span>Beranda</span>
+        </a>
+
+        <a href="#about" class="nav-link">
+            <i class="fa-solid fa-user"></i>
+            <span>Tentang</span>
+        </a>
+
+        <a href="#portfolio" class="nav-link">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Portofolio</span>
+        </a>
+
+        <a href="#contact" class="nav-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Kontak</span>
+        </a>
+
+        <button class="theme-btn" id="themeToggle" aria-label="Ganti tema">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+
+
+    <main>
+
+        <!-- BERANDA -->
+        <section class="hero page-section" id="home">
+
+            <div class="hero-copy reveal">
+
+                <div class="eyebrow">
+                    <span class="pulse"></span>
+                    SELAMAT DATANG DI PORTOFOLIO SAYA
+                </div>
+
+                <h1>
+                    <span class="blue-text">Halo, Saya</span><br>
+                    Sukran Hasta<span class="blue-text">.</span>
+                </h1>
+
+                <h2>Pengembang Web <span>·</span> Peminat Teknologi Informasi</h2>
+
+                <p>
+                    Halo! Saya Hasta Sukran, lulusan S.Kom dari Program Studi
+                    Ilmu Komputer, Universitas Muhammadiyah Bima. Saya memiliki
+                    ketertarikan dalam pengembangan website, sistem informasi,
+                    pengelolaan database, dan teknologi Internet of Things.
+                    Saya senang mempelajari teknologi baru serta mengubah ide
+                    menjadi aplikasi yang fungsional dan bermanfaat.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">
+                        Lihat Proyek
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn btn-glass">
+                        Hubungi Saya
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+                </div>
+
+                <div class="social-mini">
+                    <span>TEMUKAN SAYA</span>
+
+                    <a href="https://www.instagram.com/sukran_hasta?fqnt=eTlrNWFsZmRxeXEw" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/suksukran" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://id.linkedin.com/in/sukran-golit-159433448" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- KARTU IDENTITAS -->
+            <div class="hero-visual reveal">
+
+                <div class="id-card-stage" id="idCardStage">
+
+                    <div class="lanyard-anchor"></div>
+
+                    <div class="lanyard-rig" id="lanyardRig">
+
+                        <div class="lanyard-strap strap-left">
+                            <span>SUKRAN HASTA • SUKRAN HASTA •</span>
+                        </div>
+
+                        <div class="lanyard-strap strap-right">
+                            <span>PORTOFOLIO • PORTOFOLIO •</span>
+                        </div>
+
+                        <div class="lanyard-joint">
+                            <span class="joint-ring"></span>
+                            <span class="joint-hook"></span>
+                        </div>
+
+                        <div class="id-card" id="draggableIdCard" role="button" tabindex="0"
+                            aria-label="Tarik kartu identitas dengan mouse atau jari untuk menggerakkannya">
+
+                            <div class="card-gloss"></div>
+
+                            <div class="card-top">
+                                <span>KARTU IDENTITAS</span>
+                            </div>
+
+                            <div class="portrait-frame">
+                                <img src="assets/img/profile.jpg" alt="Foto profil Hasta Sukran">
+                            </div>
+
+                            <div class="card-bottom">
+                                <div class="card-person">
+                                    <strong>SUKRAN HASTA</strong>
+                                    <span>WEB DEVELOPMENT · PEMROGRAMAN</span>
+                                </div>
+                            </div>
+
+                            <div class="card-footerline">
+                                <span>UNIVERSITAS MUHAMMADIYAH BIMA</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TENTANG SAYA -->
+        <section class="page-section about-section" id="about">
+
+            <div class="section-title reveal">
+                <span class="section-kicker">KENALI SAYA LEBIH DEKAT</span>
+
+                <h2>Tentang <span class="blue-text">Saya</span></h2>
+
+                <p>Sedikit cerita tentang latar belakang dan perjalanan saya.</p>
+            </div>
+
+
+            <div class="about-intro">
+
+                <div class="about-name reveal">
+                    <span class="blue-text">Halo, Saya</span>
+                    <h3>Hasta Sukran</h3>
+                    <p class="muted">S.Kom · Pengembang Web</p>
+
+                    <a href="#contact" class="btn btn-primary">
+                        Hubungi Saya
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+
+                <!-- FOTO PROFIL -->
+                <div class="about-photo reveal">
+                    <div class="photo-placeholder">
+                        <img src="assets/img/profile.jpg" alt="Foto profil Hasta Sukran" class="profile-photo">
+                    </div>
+                </div>
+
+
+                <div class="about-bio reveal">
+                    <p>
+                        Saya merupakan lulusan Program Studi Ilmu Komputer,
+                        Universitas Muhammadiyah Bima. Saya memiliki minat
+                        pada pengembangan aplikasi web, perancangan sistem
+                        informasi, pengelolaan basis data, dan teknologi IoT.
+                    </p>
+
+                    <p>
+                        Dalam mengerjakan proyek, saya berusaha memahami
+                        kebutuhan pengguna, menyusun solusi, kemudian
+                        mengimplementasikannya menjadi sistem yang mudah
+                        dipahami dan digunakan.
+                    </p>
+
+                    <a href="#portfolio" class="text-link">
+                        Jelajahi Proyek Saya
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- PENDIDIKAN DAN KEAHLIAN -->
+            <div class="resume-grid">
+
+                <div class="resume-column reveal">
+                    <h3>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Pendidikan
+                    </h3>
+
+                    <article class="resume-card">
+                        <div class="school-icon">UMB</div>
+
+                        <div>
+                            <strong>Universitas Muhammadiyah Bima</strong>
+                            <p>S1 Ilmu Komputer</p>
+                            <small>Lulus · 2026</small>
+                        </div>
+                    </article>
+                </div>
+
+
+                <div class="resume-column reveal">
+                    <h3>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        Bidang Keahlian
+                    </h3>
+
+                    <article class="resume-card">
+                        <div class="school-icon purple">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <div>
+                            <strong>Pengembangan Web</strong>
+                            <p>Website dan sistem informasi</p>
+                            <small>PHP · CodeIgniter · MySQL</small>
+                        </div>
+                    </article>
+
+                    <article class="resume-card">
+                        <div class="school-icon orange">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+
+                        <div>
+                            <strong>Internet of Things</strong>
+                            <p>Monitoring sensor dan integrasi perangkat</p>
+                            <small>ESP32 · API · IoT</small>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+
+            <!-- STATISTIK -->
+            <div class="stats-grid reveal">
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-code"></i>
+                    <strong data-count="6">0</strong>
+                    <span>PROYEK</span>
+                    <small>Proyek yang dikerjakan</small>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <strong data-count="1">0</strong>
+                    <span>GELAR</span>
+                    <small>Sarjana Ilmu Komputer</small>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <strong data-count="4">0</strong>
+                    <span>BIDANG MINAT</span>
+                    <small>Bidang teknologi</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MUSIK -->
+        <section class="page-section music-section">
+
+            <div class="music-panel reveal">
+
+                <div class="music-copy">
+                    <span class="section-kicker">SEDIKIT RUANG PRIBADI</span>
+
+                    <h2>
+                        Menulis kode, berkarya,<br>
+                        <span class="blue-text">dan menikmati musik.</span>
+                    </h2>
+
+                    <p>
+                        Musik yang menemani proses belajar dan mengerjakan
+                        berbagai proyek. Dengarkan daftar putar favorit saya.
+                    </p>
+
+                    <a href="https://open.spotify.com/playlist/3XXwLc91K6JYhtotQO98S4" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-glass">
+                        Buka di Spotify
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                </div>
+
+                <div class="spotify-frame">
+                    <iframe title="Daftar putar Spotify Hasta"
+                        src="https://open.spotify.com/embed/playlist/3XXwLc91K6JYhtotQO98S4?utm_source=generator&theme=0"
+                        width="100%" height="352" allowfullscreen
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PORTOFOLIO -->
+        <section class="page-section portfolio-section" id="portfolio">
+
+            <div class="section-title reveal">
+                <span class="section-kicker">APA YANG TELAH SAYA KERJAKAN</span>
+
+                <h2><span class="blue-text">Portofolio</span> Saya</h2>
+
+                <p>
+                    Beberapa proyek pengembangan sistem dan aplikasi
+                    yang pernah saya kerjakan.
+                </p>
+            </div>
+
+
+            <!-- TAB -->
+            <div class="tabs reveal" role="tablist">
+
+                <button class="tab active" data-tab="projects" role="tab" aria-selected="true">
+                    <i class="fa-solid fa-code"></i> Proyek
+                </button>
+
+                <button class="tab" data-tab="certificates" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-certificate"></i> Sertifikat
+                </button>
+
+                <button class="tab" data-tab="achievements" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-trophy"></i> Pencapaian
+                </button>
+
+                <button class="tab" data-tab="tech" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-layer-group"></i> Teknologi
+                </button>
+
+            </div>
+
+
+            <!-- PROYEK -->
+
+            <div class="tab-panel active" id="projects" role="tabpanel">
+
+                <!-- PROJECT 01 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-one">
+                        <img src="assets/img/projects/smart.png" alt="Tampilan hasil proyek Smart Farming IoT">
+                        <span>01</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">PHP NATIVE · MYSQL · ESP32 · IOT</span>
+                        <h3>Smart Farming IoT</h3>
+                        <p>
+                            Sistem monitoring kondisi lingkungan pertanian
+                            menggunakan sensor dan ESP32, dengan data
+                            yang dikirim ke website melalui API.
+                        </p>
+                        <span class="project-status">Aplikasi Web Berbasis IoT</span>
+                    </div>
+                </article>
+
+                <!-- PROJECT 02 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-two">
+                        <img src="assets/img/projects/e-larn.png" alt="Tampilan hasil proyek E-Learning Kampus">
+                        <span>02</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">CODEIGNITER 4 · PHP · MYSQL</span>
+                        <h3>E-Learning Kampus</h3>
+                        <p>
+                            Platform pembelajaran berbasis web dengan
+                            pengelolaan pengguna, kelas, mata kuliah,
+                            materi, dan aktivitas pembelajaran.
+                        </p>
+                        <span class="project-status">Aplikasi Berbasis Web</span>
+                    </div>
+                </article>
+
+                <!-- PROJECT 03 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-three">
+                        <img src="assets/img/projects/perpustakaan.png"
+                            alt="Tampilan hasil proyek Sistem Informasi Perpustakaan">
+                        <span>03</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">PHP NATIVE · MYSQL · BOOTSTRAP</span>
+                        <h3>Sistem Informasi Perpustakaan</h3>
+                        <p>
+                            Sistem layanan perpustakaan untuk pengelolaan
+                            buku, peminjaman, pengembalian, denda,
+                            dan repository skripsi.
+                        </p>
+                        <span class="project-status">Proyek Akhir · Artikel Terpublikasi</span>
+                    </div>
+                </article>
+
+                <!-- PROJECT 04 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-four">
+                        <img src="assets/img/projects/tpq.png" alt="Tampilan hasil proyek Sistem Informasi TPQ">
+                        <span>04</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">CODEIGNITER 4 · PHP · MYSQL</span>
+                        <h3>Sistem Informasi TPQ</h3>
+                        <p>
+                            Aplikasi pengelolaan data santri, ustadz,
+                            dan aktivitas pembelajaran pada TPQ.
+                        </p>
+                        <span class="project-status">Aplikasi Berbasis Web</span>
+                    </div>
+                </article>
+
+                <!-- PROJECT 05 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-five">
+                        <img src="assets/img/projects/edusave.png" alt="Tampilan hasil proyek EduSafe Anti-Perundungan">
+                        <span>05</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">PHP NATIVE · MYSQL</span>
+                        <h3>EduSafe – Anti-Perundungan</h3>
+                        <p>
+                            Website edukasi dan pengelolaan informasi
+                            untuk mendukung upaya pencegahan perundungan.
+                        </p>
+                        <span class="project-status">Aplikasi Berbasis Web</span>
+                    </div>
+                </article>
+
+                <!-- PROJECT 06 -->
+                <article class="project-card reveal">
+                    <div class="project-thumb thumb-six">
+                        <img src="assets/img/projects/pariwisata.png"
+                            alt="Tampilan hasil proyek Website Dinas Pariwisata">
+                        <span>06</span>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">LARAVEL · PHP · MYSQL</span>
+                        <h3>Website Dinas Pariwisata</h3>
+                        <p>
+                            Pengembangan website informasi pariwisata
+                            dengan penyajian konten dan informasi destinasi.
+                        </p>
+                        <span class="project-status">Pengembangan Website</span>
+                    </div>
+                </article>
+
+            </div>
+
+
+            <!-- SERTIFIKAT -->
+            <div class="tab-panel" id="certificates" role="tabpanel">
+
+                <div class="certificate-grid">
+
+                    <!-- SERTIFIKAT 01 -->
+                    <article class="certificate-card reveal">
+                        <div class="certificate-image">
+                            <img src="assets/img/certificates/sertifikat-1.jpg" alt="Sertifikat pelatihan pertama">
+                        </div>
+
+                        <div class="certificate-body">
+                            <span class="project-type">SERTIFIKAT PELATIHAN</span>
+                            <h3>Data Analytics Essentials</h3>
+
+                            <p>
+                                Sertifikat pelatihan terkait dasar-dasar
+                                analisis data dan pengolahan informasi.
+                            </p>
+
+                            <small>Penyelenggara: Isi nama lembaga</small>
+                        </div>
+                    </article>
+
+
+                    <!-- SERTIFIKAT 02 -->
+                    <article class="certificate-card reveal">
+                        <div class="certificate-image">
+                            <img src="assets/img/certificates/sertifikat-2.jpg" alt="Sertifikat pelatihan kedua">
+                        </div>
+
+                        <div class="certificate-body">
+                            <span class="project-type">SERTIFIKAT PELATIHAN</span>
+                            <h3>Nama Sertifikat Kedua</h3>
+
+                            <p>
+                                Isi deskripsi singkat mengenai pelatihan
+                                atau kompetensi yang diperoleh.
+                            </p>
+
+                            <small>Penyelenggara: Isi nama lembaga</small>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- PENCAPAIAN -->
+            <div class="tab-panel" id="achievements" role="tabpanel">
+
+                <!-- PENDIDIKAN -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div>
+                        <span class="project-type">PENDIDIKAN</span>
+                        <h3>Lulusan Sarjana Komputer</h3>
+
+                        <p>
+                            Menyelesaikan pendidikan S1 Program Studi
+                            Ilmu Komputer di Universitas Muhammadiyah Bima.
+                        </p>
+
+                        <small>2026</small>
+                    </div>
+                </div>
+
+
+                <!-- PUBLIKASI JURNAL -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <span class="project-type">PUBLIKASI ILMIAH</span>
+                        <h3>Artikel Ilmiah Terpublikasi</h3>
+
+                        <p>
+                            Artikel ilmiah berjudul
+                            "Perancangan dan Pengembangan Website Inovatif
+                            untuk Optimalisasi Layanan Perpustakaan
+                            Universitas Muhammadiyah Bima".
+                        </p>
+
+                        <small>Jurnal RABIT · 2026</small>
+
+                        <a href="https://jurnal.univrab.ac.id/index.php/rabit/article/view/8179" target="_blank"
+                            class="achievement-link">
+                            Lihat Publikasi
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- TEKNOLOGI -->
+            <div class="tab-panel tech-panel" id="tech" role="tabpanel">
+
+                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span><i class="fa-brands fa-php"></i> PHP</span>
+                <span><i class="fa-solid fa-database"></i> MySQL</span>
+                <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                <span><i class="fa-solid fa-code"></i> CodeIgniter 4</span>
+                <span><i class="fa-brands fa-laravel"></i> Laravel</span>
+                <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span><i class="fa-brands fa-github"></i> GitHub</span>
+                <span><i class="fa-solid fa-microchip"></i> ESP32</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- KONTAK -->
+        <section class="page-section contact-section" id="contact">
+
+            <div class="section-title reveal">
+                <span class="section-kicker">MARI BERBINCANG</span>
+
+                <h2>Hubungi <span class="blue-text">Saya</span></h2>
+
+                <p>
+                    Punya ide atau ingin berdiskusi?
+                    Silakan hubungi saya melalui informasi berikut.
+                </p>
+            </div>
+
+
+            <div class="contact-grid">
+
+                <!-- FORM WHATSAPP -->
+                <div class="contact-card reveal">
+                    <h3>Kirim Pesan</h3>
+
+                    <p class="muted">
+                        Isi formulir berikut untuk menghubungi saya melalui WhatsApp.
+                    </p>
+
+                    <form id="contactForm">
+
+                        <label for="contactName">
+                            Nama
+                            <input type="text" id="contactName" placeholder="Masukkan nama Anda" required>
+                        </label>
+
+                        <label for="contactEmail">
+                            Email
+                            <input type="email" id="contactEmail" placeholder="Masukkan email Anda" required>
+                        </label>
+
+                        <label for="contactMessage">
+                            Pesan
+                            <textarea id="contactMessage" rows="4" placeholder="Tuliskan pesan Anda..."
+                                required></textarea>
+                        </label>
+
+                        <button class="btn btn-primary full" type="submit">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            Kirim Pesan
+                        </button>
+
+                        <p class="form-note" id="formNote">
+                            Pesan akan diteruskan melalui WhatsApp.
+                        </p>
+
+                    </form>
+                </div>
+
+
+                <!-- KOMENTAR -->
+                <div class="comment-card reveal">
+
+                    <h3>
+                        <i class="fa-regular fa-comments"></i>
+                        Komentar
+                        <span id="commentCount">(00)</span>
+                    </h3>
+
+                    <form id="commentForm">
+
+                        <label for="commentName">
+                            Nama
+                            <input type="text" id="commentName" placeholder="Masukkan nama Anda" required>
+                        </label>
+
+                        <label for="commentText">
+                            Komentar
+                            <textarea id="commentText" rows="4" placeholder="Tuliskan komentar Anda..."
+                                required></textarea>
+                        </label>
+
+                        <button class="btn btn-primary full" type="submit">
+                            <i class="fa-regular fa-comment"></i>
+                            Kirim Komentar
+                        </button>
+
+                    </form>
+
+                    <div class="comment-list" id="commentList">
+
+                        <div class="comment-item">
+                            <div class="comment-avatar">A</div>
+
+                            <div>
+                                <strong>Admin</strong>
+                                <p>Terima kasih telah mengunjungi portofolio saya!</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEDIA SOSIAL -->
+            <div class="find-me reveal">
+
+                <h3>TEMUKAN SAYA</h3>
+
+                <div class="social-list">
+
+                    <a href="https://www.instagram.com/sukran_hasta?fqnt=eTlrNWFsZmRxeXEw" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>
+                            <b>Instagram</b>
+                            <small>@sukran_hasta</small>
+                        </span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <a href="https://github.com/suksukran" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>
+                            <b>GitHub</b>
+                            <small>github.com/suksuran</small>
+                        </span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <a href="https://id.linkedin.com/in/sukran-golit-159433448" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>
+                            <b>LinkedIn</b>
+                            <small>linkedin.com/in/sukran-golit-159433448</small>
+                        </span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="logo">
+                        Hasta<span> Sukran.</span>
+                    </a>
+
+                    <p>
+                        Lulusan S1 Ilmu Komputer yang memiliki minat
+                        dalam pengembangan website, sistem informasi,
+                        pengelolaan database, dan Internet of Things.
+                        Terus belajar, berkembang, dan menciptakan
+                        solusi digital yang bermanfaat.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="https://github.com/suksuran" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://id.linkedin.com/in/sukran-golit-159433448" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/sukran_hasta?fqnt=eTlrNWFsZmRxeXEw" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-links">
+                    <h3>Navigasi</h3>
+
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Saya</a></li>
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-links">
+                    <h3>Bidang Keahlian</h3>
+
+                    <ul>
+                        <li><a href="#portfolio">Pengembangan Web</a></li>
+                        <li><a href="#portfolio">Pemrograman Backend</a></li>
+                        <li><a href="#portfolio">Pengelolaan Database</a></li>
+                        <li><a href="#portfolio">Internet of Things</a></li>
+                        <li><a href="#portfolio">Pengembangan Sistem Informasi</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-contact">
+                    <h3>Hubungi Saya</h3>
+
+                    <p>
+                        Tertarik untuk bekerja sama, berdiskusi,
+                        atau menawarkan kesempatan magang?
+                        Silakan hubungi saya melalui informasi berikut.
+                    </p>
+
+                    <a href="mailto:suksukran165@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        suksukran165@gmail.com
+                    </a>
+
+                    <a href="https://wa.me/6281239911479" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                        Hubungi melalui WhatsApp
+                    </a>
+
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Bima, Nusa Tenggara Barat
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="year"></span>
+                    <strong>Hasta Sukran.</strong>
+                    Hak cipta dilindungi.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
